@@ -1,36 +1,29 @@
-# pd2-pacman
+# A Customized Pac-Man Game
+![pac-man-demo-3](https://github.com/user-attachments/assets/ffabd87d-9d27-4718-99c9-c952d63cbe2c)
 
-## Score
-- GUI 5%
-- Dashboard 5%
-- Dots 5%
-- Power Pellets 5%
-- Pac-man 10%
-- Ghost 10%
-- Polymorphism 10%
-- Demo 50%
-- (Bonus up to 20%)
+- Use Qt5 for game implementation
+- Tested on Windows 10, Ubuntu 20.04, and MacOC
 
 ## Power Pellets
-
-- If the ghost collide with the pac-man and pac-man has eaten power pellets
-    - Pac-man eat the ghost and get the point
-    - ghost die and bring back to life in a few seconds
+- When taking the huge pellets, the ghost can't kill the pac-man.
 
 ## Pac-man
 
-- Pac-man may keep going straight forward and player can use four keys to change its direction
-- If Pac-man collide with the ghost, game over
-    - You don't need to make pac-man life, it only have one life
+- Pac-man may keep going straight forward and player can use four keys to change its direction.
+- If Pac-man collide with the ghost, game over.
 
 ## Ghost
 
-- There are four ghosts in the corner of the gameboard
-- Four ghosts should have four different algorithm to chase pac-man
-    - you can take [this](https://en.wikipedia.org/wiki/Pac-Man#Enemy_behavior) as reference
-- If the ghost collide with the pac-man, pac-man die and game over
+- There are four ghosts in the corner of the gameboard.
+    - Red ghost: will shoot magic bullet to the hac-man.
+    - Blue ghost: will slowly chase the hac-man.
+    - Pink ghost: will randomly move on the map but the speed is SUPPER FAST!
+    - Yellow ghost: will mimic the motions of the "knight" piece in chess game and move to the hac-man.
+      
+- Four ghosts have four different algorithm to chase pac-man.
+- If the ghost collide with the pac-man, pac-man die and game over.
 
 
 ## Polymorphism
-- You should use polymorphism technique on class `Pacman` and `Ghost`.
-- Both of them should implement method `move()`, and be called by pointer of base class.
+- Apply polymorphism technique on class `Pacman` and `Ghost` for implementation.
+- Both of them have a method `move()` called by pointer of base class.
