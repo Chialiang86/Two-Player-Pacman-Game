@@ -1,5 +1,10 @@
 # A Customized Pac-Man Game
 ![pac-man-demo-3](https://github.com/user-attachments/assets/ffabd87d-9d27-4718-99c9-c952d63cbe2c)
+- For single user, the player can use up, down, left, and right arrow to control the hac-man
+- For double users, the players can use up, down, left, and right arrow or w,a,s, and d key to control the hac-mans
+  
+![pac-man-demo-4](https://github.com/user-attachments/assets/74574902-49e0-4f5e-b9d0-8a7b2bc521bc)
+- The map can also be modified by the user.
 
 - Use Qt5 for game implementation
 - Tested on Windows 10, Ubuntu 20.04, and MacOC
