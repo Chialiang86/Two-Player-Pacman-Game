@@ -6,6 +6,7 @@
 ![pac-man-demo-4](https://github.com/user-attachments/assets/74574902-49e0-4f5e-b9d0-8a7b2bc521bc)
 - The map can also be modified by the user.
 
+## Platform and Language
 - Use Qt5 for game implementation
 - Tested on Windows 10, Ubuntu 20.04, and MacOC
 
