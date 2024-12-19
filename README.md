@@ -7,8 +7,8 @@
 - The map can also be modified by the user.
 
 ## Platform and Language
-- Use Qt5 for game implementation
-- Tested on Windows 10, Ubuntu 20.04, and MacOC
+- Use C++ and Qt framework for game implementation
+- Tested on Windows 10, Ubuntu 20.04, and MacOS
 
 ## Power Pellets
 - When taking the huge pellets, the ghost can't kill the pac-man.
